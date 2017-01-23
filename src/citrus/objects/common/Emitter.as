@@ -153,8 +153,10 @@ package citrus.objects.common
 		public function Emitter(name:String, params:Object = null) 
 		{
 			updateCallEnabled = true;
+
 			super(params);
 			//super(name, params);
+
 			_ce = CitrusEngine.getInstance();
 		}
 		

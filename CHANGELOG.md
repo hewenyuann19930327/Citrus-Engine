@@ -26,8 +26,8 @@ V3.2.0, Work in Progress（V3.2.0版，工作在进展中）
 - StarlingArt：touchgroup = true 为默认（有助于对citrusobjects 基本触控）
 - Starling updated on 2.1.0
 - 八哥更新2.1.0
-- Feathers updated on 3.1.0
-- 羽毛在3.1.0更新
+- Feathers updated on 3.1.1
+- 羽毛在3.1.1更新
 - Added Ash.
 - 添加了Ash
 - Removed Away3D & AwayPhysics.
