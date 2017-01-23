@@ -2,7 +2,7 @@ V3.2.0, Work in Progress（V3.2.0版，工作在进展中）
 ------------------------
 
 - Citrus Engine's Keyboard controller : key code constants have been removed to prevent some compilation issues. citrus.input.controllers.Keyboard.as has been renamed to citrus.input.controllers.KeyboardController.as to avoid import conflicts when setting up the keyboard actions and using flash.ui.Keyboard's key codes.
--CitrusEngine的Keyboard controller：键代码常量已被删除，以防止一些编译问题。citrus.input.controllers.keyboard.as改名为citrus.input.controllers.keyboardcontroller.as避免import冲突时设置键盘操作和使用flash.ui.Keyboard's 的键码。
+- CitrusEngine的Keyboard controller：键代码常量已被删除，以防止一些编译问题。citrus.input.controllers.keyboard.as改名为citrus.input.controllers.keyboardcontroller.as避免import冲突时设置键盘操作和使用flash.ui.Keyboard's 的键码。
 - ViewportMode.FILL
 - Box2D, process contacts after world step (so we can manipulate bodies in the listeners/handle*Contact)
 - Box2D，在world step 之后处理contacts（所以我们可以在监听器/处理*接触操纵物理体）
