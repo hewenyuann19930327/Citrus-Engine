@@ -115,6 +115,7 @@ package citrus.utils.objectmakers {
 					}
 					
 					var object:CitrusObject = new objectClass(params);
+					object.name = child.name;
 					a.push(object);
 				}
 			}
