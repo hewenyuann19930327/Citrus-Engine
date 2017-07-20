@@ -83,7 +83,8 @@ package citrus.utils.objectmakers {
 					
 					if (child.params)
 						params = child.params;
-					
+					if (child.name)
+						params.name = child.name;
 					params.x = child.x;
 					params.y = child.y;
 					
@@ -115,7 +116,7 @@ package citrus.utils.objectmakers {
 					}
 					
 					var object:CitrusObject = new objectClass(params);
-					object.name = child.name;
+					//object.name = child.name;
 					a.push(object);
 				}
 			}
