@@ -234,7 +234,7 @@ package citrus.utils.objectmakers {
 				for (var param:String in objectTmx.custom) {
 					params[param] = objectTmx.custom[param];
 				}
-				
+				params.name = objectTmx.name;
 				params.x = objectTmx.x + objectTmx.width * 0.5;
 				params.y = objectTmx.y + objectTmx.height * 0.5;
 				params.width = objectTmx.width;
@@ -273,7 +273,7 @@ package citrus.utils.objectmakers {
 					params.points = objectTmx.points;
 				}
 				
-				object = new objectClass(objectTmx.name, params);
+				object = new objectClass(params);
 				objects.push(object);
 			}
 		}
